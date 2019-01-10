@@ -2,7 +2,7 @@ package thinkinjava.chapter06;
 /**
  * 导入静态方法，后面就可以直接用这个方法了
  */
-import static net.mindview.util.Print.print;
+import static thinkinjava.util.Print.print;
 
 public class PrintTest {
 

@@ -1,6 +1,6 @@
 package thinkinjava.chapter15;
 
-import net.mindview.util.Sets;
+import thinkinjava.util.Sets;
 
 import java.lang.reflect.Method;
 import java.util.*;

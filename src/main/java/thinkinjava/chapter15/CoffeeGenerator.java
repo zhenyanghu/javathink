@@ -1,6 +1,6 @@
 package thinkinjava.chapter15;
 
-import net.mindview.util.Generator;
+import thinkinjava.util.Generator;
 
 import java.util.Iterator;
 import java.util.Random;

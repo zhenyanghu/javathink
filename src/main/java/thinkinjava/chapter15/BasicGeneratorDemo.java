@@ -1,9 +1,8 @@
 package thinkinjava.chapter15;
 
-import net.mindview.util.Generator;
+import thinkinjava.util.Generator;
 
-import static net.mindview.util.BasicGenerator.*;
-import static net.mindview.util.BasicGenerator.create;
+import static thinkinjava.util.BasicGenerator.create;
 
 public class BasicGeneratorDemo {
 
