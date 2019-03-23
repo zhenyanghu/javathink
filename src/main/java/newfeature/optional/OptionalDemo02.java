@@ -24,7 +24,10 @@ public class OptionalDemo02 {
 		Optional<String> stringOptional2 = Optional.of("zhangsan");
 		System.out.println("map: " + stringOptional2.map(e -> e.toUpperCase()));
 
-		String str = Optional.of("zhangsan").map(e -> e.toUpperCase()).orElse(null);
+		// 返回的结果仍然是一个Optional对象，经过map值转换之后的Optional对象，
+//		String s = null;
+
+		String str = Optional.of("zhangsan").map(e -> e = null).orElse("lisi");
 		System.out.println("--test--" + str);
 
 		// orElse: Optional中存在值则返回此值，否则，返回默认值
