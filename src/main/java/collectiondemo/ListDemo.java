@@ -15,10 +15,21 @@ public class ListDemo {
         list.add("1");
         list.add("2");
         // 测试在循环中用这种方式去删除元素，分析源码，分析报错的原因。
-        for (String item : list) {
-            if ("2".equals(item)) {
-                list.remove(item);
-            }
-        }
+//        for (String item : list) {
+//            if ("2".equals(item)) {
+//                list.remove(item);
+//            }
+//        }
+
+        int a = 0;
+//        ofNullable(list).ifPresent(() -> a =2);
+        list.forEach(s -> {
+//            a = 2;
+            System.out.println(s);
+        });
     }
+}
+
+class Student {
+
 }
