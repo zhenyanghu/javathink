@@ -22,7 +22,6 @@ public class ListDemo {
 //        }
 
         int a = 0;
-//        ofNullable(list).ifPresent(() -> a =2);
         list.forEach(s -> {
 //            a = 2;
             System.out.println(s);
