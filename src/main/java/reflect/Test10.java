@@ -33,10 +33,12 @@ class RealSubject implements Subject {
 class MyInvocationHandler implements InvocationHandler {
 
 	private Object object;
+
 	public Object bind(Object object) { 
 		this.object = object;
 		return Proxy.newProxyInstance(object.getClass().getClassLoader(), object.getClass().getInterfaces(), this);
 	}
+
 	@Override
 	public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
 		Object temp = method.invoke(this.object, args);
