@@ -19,19 +19,11 @@ public class DynamicProxy {
 
 }
 
-
 interface Subject {
     void doSomeThing(String name);
 }
 
 class realSubject implements Subject {
-
-//    private String name;
-//
-//    public realSubject(String name) {
-//        this.name = name;
-//    }
-
     @Override
     public void doSomeThing(String name) {
         System.out.println(name + " 开始工作...");
